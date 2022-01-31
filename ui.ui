@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #1f2023;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLineEdit" name="latitude">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>20</y>
+      <width>551</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size: 16pt;
+background-color: #1f2023;
+hover: #383b40; 
+border-radius: 10;
+color: white;
+border-width: 2px;
+    border-style: solid;
+    border-color: #66B5FF;
+</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="longitude">
+    <property name="geometry">
+     <rect>
+      <x>202</x>
+      <y>71</y>
+      <width>551</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size: 16pt;
+background-color: #1f2023;
+hover: #383b40; 
+border-radius: 10;
+color: white;
+border-width: 2px;
+    border-style: solid;
+    border-color: #66B5FF;
+</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="zoom">
+    <property name="geometry">
+     <rect>
+      <x>202</x>
+      <y>120</y>
+      <width>551</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size: 16pt;
+background-color: #1f2023;
+hover: #383b40; 
+border-radius: 10;
+color: white;
+border-width: 2px;
+    border-style: solid;
+    border-color: #66B5FF;
+</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size: 16pt;
+background-color: #1f2023;
+color: white;
+
+</string>
+    </property>
+    <property name="text">
+     <string>latitude</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>70</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size: 16pt;
+background-color: #1f2023;
+color: white;
+</string>
+    </property>
+    <property name="text">
+     <string>longitude</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>115</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size: 16pt;
+background-color: #1f2023;
+color: white;
+</string>
+    </property>
+    <property name="text">
+     <string>zoom</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="map">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>230</y>
+      <width>600</width>
+      <height>450</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size: 16pt;
+background-color: #1f2023;
+hover: #383b40; 
+border-radius: 10;
+color: white;
+border-width: 2px;
+    border-style: solid;
+    border-color: #66B5FF;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>322</x>
+      <y>730</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size: 16pt;
+background-color: #1f2023;
+hover: #383b40; 
+border-radius: 10;
+color: white;
+border-width: 2px;
+    border-style: solid;
+    border-color: #66B5FF;
+</string>
+    </property>
+    <property name="text">
+     <string>run</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

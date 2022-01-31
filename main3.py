@@ -1,5 +1,4 @@
 import os
-from PIL import Image
 
 import requests
 from PyQt5.QtGui import QPixmap
@@ -28,9 +27,7 @@ class MyWidget(QMainWindow):
         self.map_file = "map.png"
         with open(self.map_file, "wb") as file:
             file.write(response.content)
-        img = Image.open('map.png')
-        img.resize(400, 400, resample=0, box=None)
-        self.pixmap = QPixmap(img)
+        self.pixmap = QPixmap("map.png")
         self.map.setPixmap(self.pixmap)
 
 
